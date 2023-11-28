@@ -1,0 +1,40 @@
+#fooldal{
+    display: grid;
+    grid-template-areas: 
+    's1 s4 s4'
+    's1 k s2'
+    's3 s3 s3';
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#fooldal *{
+    border: 1px black solid;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+#sz1{
+    grid-area: s1;
+    text-align: center;
+}
+
+#sz2{
+    grid-area: s2;
+    text-align: right;
+}
+
+#sz3{
+    grid-area: s3;
+    text-align: center;
+}
+
+#sz4{
+    grid-area: s4;
+    color: red;
+}
+
+#k{
+    grid-area: k;
+}
